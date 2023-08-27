@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "workbench.colorTheme": "Default Light Modern",
+    "workbench.iconTheme": "eq-material-theme-icons",
+    // "workbench.sideBar.location": "right"
+}
