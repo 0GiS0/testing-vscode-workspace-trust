@@ -13,11 +13,10 @@ const routes = require('./routes/api');
 // Set up express app
 const app = express();
 
-console.log(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:27017/${process.env.DB_COLLECTION}`)
+console.log(process.env.DB_HOST)
 
 // Connect to MongoDB
-// mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:27017/${process.env.DB_COLLECTION}`, { useNewUrlParser: true });
-mongoose.connect(`mongodb://${process.env.DB_HOST}:27017/${process.env.DB_COLLECTION}`,
+mongoose.connect(process.env.DB_HOST,
     {
         authSource: "admin",
         user: process.env.DB_USER,
