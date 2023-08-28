@@ -1,0 +1,46 @@
+// Add some ninjas to the db
+POST http://localhost:3000/api/ninjas 
+content-type: application/json
+
+{
+    "name": "Ryu",
+    "rank": "black belt",
+    "available": true
+}
+
+###
+
+POST http://localhost:3000/api/ninjas
+content-type: application/json
+
+{
+    "name": "Yoshi",
+    "rank": "orange belt",
+    "available": true
+}
+
+###
+
+POST http://localhost:3000/api/ninjas
+content-type: application/json
+
+{
+    "name": "Crystal",
+    "rank": "purple belt",
+    "available": true
+}
+
+###
+POST http://localhost:3000/api/ninjas
+content-type: application/json
+
+{
+    "name": "Shaun",
+    "rank": "brown belt",
+    "available": true
+}
+
+###
+
+// get a list of ninjas from the db
+GET http://localhost:3000/api/ninjas

