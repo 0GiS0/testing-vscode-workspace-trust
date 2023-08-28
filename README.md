@@ -32,6 +32,10 @@ db.getName();
 exit
 ```
 
-Rename the `.env.example` file to `.env` and fill in the connection string to your MongoDB database.
+Install node modules
+
+```bash
+npm install
+```
 
 Then you can run the app using `npm start` and open it in your browser at http://localhost:3000.
